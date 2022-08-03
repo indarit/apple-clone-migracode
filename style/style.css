@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #272729;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0% 10%;
+}
+
+.navbar-link {
+    color: #cecece;
+    padding: 0px 8px;
+    cursor: pointer;
+    font-size: 10;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.navbar-link:hover {
+    color: #ffffff;
+}
+
+.navbar-button {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.banner-unicef {
+    border: 1px solid aqua;
+}
+
+.products-highlights {
+    border: 1px solid yellowgreen;
+}
+
+footer {
+    border: 1px solid red;
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
