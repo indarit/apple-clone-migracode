@@ -34,11 +34,21 @@ body {
 }
 
 .banner-unicef {
-    border: 1px solid aqua;
+    backgro color:#fbfbfd ;
+        -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 15px 0;
+}icon {
+    margin-top: 4px;
+    max-width: 215px;
 }
+
 
 .products-highlights {
     border: 1px solid yellowgreen;
+    background-color:#ffffff ;
 }
 
 footer {
