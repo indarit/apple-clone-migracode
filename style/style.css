@@ -33,7 +33,7 @@ body {
     cursor: pointer;
 }
 
-.banner-unicef {
+.modulo-unicef {
 display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50,15 +50,28 @@ display: -webkit-box;
             }
 
 
+.modulo-MacBook-Air{
+flex-direction: row | row-reverse | column | column-reverse;
+background-color:#ffffff ;
 
-.products-highlights {
-  
-    background-color:#ffffff ;
+}
+.link-macbook{
+    color: #06c;
+        letter-spacing: inherit;
 }
 
+imag-ipad´{
+
+
+}
+
+.modulo-Iphone13{
+    
+}
 footer {
     border: 1px solid red;
+    background-color: #ffffff;
 }
 
 Footer © 2022 GitHub,
-Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About    
