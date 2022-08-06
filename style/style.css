@@ -29,12 +29,12 @@ body {
 }
 
 .navbar-button {
-    padding: 0px 10px;
+    padding: 15px 10px;
     cursor: pointer;
 }
 
 .modulo-unicef {
-display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
@@ -47,37 +47,31 @@ display: -webkit-box;
     padding: 20px 0;
     text-align: center;
     background-color: #fbfbfd;
-            }
+}
 
-
-.modulo-MacBook-Air{
-flex-direction: row | row-reverse | column | column-reverse;
-background-color:#ffffff ;
+.modulo-MacBook-Air {
+    flex-direction: row | row-reverse | column | column-reverse;
+    background-color: #ffffff;
 
 }
-.link-macbook{
+
+.link-macbook {
     color: #06c;
-        letter-spacing: inherit;
+    letter-spacing: inherit;
 }
 
-imag-ipad´{
+imag-ipad´ {}
 
+.modulo-Iphone13 {}
 
-}
-
-.modulo-Iphone13{
-
-}
 footer {
     border: 1px solid red;
     background-color: #ffffff;
 }
-.modulo-MacbookPro13{
 
-}
+.modulo-MacbookPro13 {}
 
-.modulo.iphone13pro{
-    
-}
+.modulo.iphone13pro {}
+
 Footer © 2022 GitHub,
 Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About    
