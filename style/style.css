@@ -13,13 +13,14 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 0% 10%;
+    height: 5%;
 }
 
 .navbar-link {
     color: #cecece;
     padding: 0px 8px;
     cursor: pointer;
-    font-size: 10;
+    font-size: 7.5;
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -31,62 +32,75 @@ body {
 }
 
 .navbar-button {
-    padding: 15px 10px;
+    padding: 0px 10px;
     cursor: pointer;
-    width: 1, 4vw;
+    width: 1.4vw;
 }
 
-
-.modulo-unicef {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
-    padding: 20px 0;
-    text-align: center;
+.banner-unicef {
     background-color: #fbfbfd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 8%;
 }
 
-
-.logo-unicef{
+.logo-unicef {
     width: 10%;
 }
 
-.link{
-    font-size: 12 ;
-    color:#06c;
+.link {
+    font-size: 12;
     padding: 0.8vw;
+    color: #06c;
     text-decoration: none;
 }
-.modulo-MacBook-Air {
-    flex-direction: row | row-reverse | column | column-reverse;
-    background-color: #ffffff;
 
+#macbook-air-banner {
+    background-color: #fbfbfd;
+    background-image: url("../resources/images/hero_macbookair__el7scava26mq_large.png");
+    background-repeat:no-repeat;
+    background-position: 50%;
+    background-size: 2000px 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1vw;
+    margin: 0;
 }
 
-.link-macbook {
-    color: #06c;
-    letter-spacing: inherit;
+.macbook-air {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6vw;
 }
 
-imag-ipad´ {}
+.information-buy-links {
+    display: flex;
+    flex-direction: row;
+}
 
-.modulo-Iphone13 {}
+.headline {
+    font-size: x-large;
+    margin: 1.2vh;
+}
+
+#text-macbook-air {
+    width: 50%;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
 
 footer {
     border: 1px solid red;
-    background-color: #ffffff;
 }
 
-.modulo-MacbookPro13 {}
-
-.modulo.iphone13pro {}
-
 Footer © 2022 GitHub,
-Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About    
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
