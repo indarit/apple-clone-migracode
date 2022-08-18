@@ -2,17 +2,19 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
+    align-content: center;
    
 }
 
-.navbar {
+.navbar-mia {
     display: flex;
     flex-direction: row;
     background-color: #272729;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0% 20%;
-    height: 5%;
+    padding: 0% 10%;
+    height: 10%;
+    width: 100%;
 }
 
 .navbar-link {
@@ -95,29 +97,29 @@ background-color: #fbfbfd;
 display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items:center;
     padding-top: 0;
     margin-top: 0;
-    padding-left: 45%;
+    padding: 5%;
     margin: 0;
-
     font-size: x-large;
 justify-content: center;
 }
+
 
 
 #macbook-air-ipad {
     background-color: #fbfbfd;
     background-image: url("../resources/images/ipadair.png");
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 0%;
     background-size: 1000px 500px;
-    height: 200%;
+    height: 0%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 45%;
+    padding-left: 0%;
     margin: 0;
 }
 
